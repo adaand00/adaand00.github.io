@@ -1,0 +1,118 @@
+@font-face {font-family: "OCR-A";
+    src:
+    url("font/OCRA/OCRA.woff2") format("woff2"), /* chrome、firefox */
+    url("font/OCRA/OCRA.woff") format("woff"), /* chrome、firefox */
+    url("font/OCRA/OCRA.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  }
+
+
+
+body{
+    margin: 0;
+    --c-light: #fff8e0;
+    --c-dark: #00071f;
+    font-family: "OCR-A", monospace;
+}
+
+.page{
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+#inverted1{
+    position: fixed;
+    top:0;
+    left: 0;
+    color: var(--c-light);
+    z-index: -3;
+}
+
+#inverted1 img{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    height: 30vh;
+}
+
+#inverted1 h1{
+    text-align: center;
+    font-size: 400%;
+}
+
+#inverted2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    padding-top: 50vh;
+}
+
+#inverted2 h2{
+    text-align: center;
+    color: var(--c-light);
+}
+
+
+
+#top1{
+    position: relative;
+    background-color: var(--c-light);
+    mix-blend-mode: difference;
+    z-index: -2;
+}
+
+#top2{
+    position: relative;
+    background-color: var(--c-dark);
+    z-index: -10;
+}
+
+#projects{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.projectbox{
+    display: block;
+    box-sizing: border-box;
+    margin: 50px;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: #00000027 3px 3px 5px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: var(--c-light);
+    text-decoration: none;
+    color: var(--c-dark);
+    text-shadow: var(--c-light) 0px 0px 10px;
+}
+
+#tinyled{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/tinyled.jpg);
+    background-size: cover;
+}
+
+#pointtwo{
+    background-image: url(simplelogo.svg);
+    background-size: cover;
+}
+
+
+#contact{
+    text-align: center;
+    background-color: var(--c-light);
+    padding-top: 30vh;
+}
+
+#contact a{
+    font-size: 200%;
+    line-height: 60px;
+}
+
