@@ -44,12 +44,12 @@ body{
     margin: auto;
     margin-top: 20vh;
     height: 20vh;
-    filter: opacity(0.15);
+    filter: opacity(0.2);
 }
 
 #top1 h1{
     text-align: center;
-    font-size: 400%;
+    font-size: 40px;
     max-height: 10vh;
     color: transparent;
     background: linear-gradient(45deg, #846D11, #cabd87, #BEAD65);
@@ -66,6 +66,8 @@ body{
 }
 
 #top2 h2{
+    font-size: 20px;
+    line-height: 40px;
     text-align: center;
     color: var(--c-light);
 }
@@ -101,8 +103,8 @@ body{
     display: block;
     box-sizing: border-box;
     margin: 50px;
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -121,18 +123,37 @@ body{
 }
 
 #pointtwo{
-    background-image: url(simplelogo.svg);
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/pointtwo.jpg);
     background-size: cover;
 }
 
+#pointsource{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/tinyled.jpg);
+    background-size: cover;
+}
+
+#TINYPLAY{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/TINYPLAY.png);
+    background-size: cover;
+}
 
 #contact{
     text-align: center;
-    padding-top: 30vh;
+    color: var(--c-dark);
+    padding-top: 20vh;
+    padding-bottom: 20vh;
 }
 
 #contact a{
-    font-size: 200%;
-    line-height: 60px;
+    display: inline-block;
+    box-sizing: border-box;
+    color: var(--c-light);
+    font-size: 24px;
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: var(--c-dark);
+    margin: 10px;
+    box-shadow: #00000057 3px 3px 5px;
 }
 
