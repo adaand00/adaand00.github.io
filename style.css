@@ -148,6 +148,11 @@ body{
     background-size: cover;
 }
 
+#helios{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/helios.jpg);
+    background-size: cover;
+}
+
 #contact{
     text-align: center;
     color: var(--c-dark);
