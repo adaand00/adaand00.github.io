@@ -128,6 +128,11 @@ body{
     background-size: cover;
 }
 
+#xmas2021{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/xmas2021.PNG);
+    background-size: cover;
+}
+
 #pointtwo{
     background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/pointtwo.jpg);
     background-size: cover;
