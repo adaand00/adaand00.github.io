@@ -158,6 +158,11 @@ body{
     background-size: cover;
 }
 
+#badboards{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/badboards.jpg);
+    background-size: cover;
+}
+
 #contact{
     text-align: center;
     color: var(--c-dark);
