@@ -153,6 +153,11 @@ body{
     background-size: cover;
 }
 
+#mechhand{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/hand.png);
+    background-size: cover;
+}
+
 #contact{
     text-align: center;
     color: var(--c-dark);
