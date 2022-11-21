@@ -133,6 +133,11 @@ body{
     background-size: cover;
 }
 
+#CASEsound{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/dark_shot.jpg);
+    background-size: cover;
+}
+
 #pointtwo{
     background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/pointtwo.jpg);
     background-size: cover;
