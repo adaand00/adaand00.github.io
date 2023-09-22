@@ -168,6 +168,11 @@ body{
     background-size: cover;
 }
 
+#SSQB{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/SSQB.jpg);
+    background-size: cover;
+}
+
 #contact{
     text-align: center;
     color: var(--c-dark);
