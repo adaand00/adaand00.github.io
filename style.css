@@ -159,6 +159,11 @@ body{
     background-size: cover;
 }
 
+#xmas2023{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/xmas2023.jpg);
+    background-size: cover;
+}
+
 #CASEsound{
     background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/dark_shot.jpg);
     background-size: cover;
