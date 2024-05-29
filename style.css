@@ -199,8 +199,8 @@ body{
     background-size: cover;
 }
 
-#SSQB{
-    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/SSQB.jpg);
+#Hypersonic{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/Hypersonic.jpg);
     background-size: cover;
 }
 
