@@ -142,6 +142,7 @@ body{
 .projectbox *{
     margin-top: 10px;
     margin-bottom: 10px;
+    background-size: cover;
 }
 
 #tinyled{
@@ -202,6 +203,14 @@ body{
 #Hypersonic{
     background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/Hypersonic.jpg);
     background-size: cover;
+}
+
+#smartwalker{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/smartwalker.png);
+}
+
+#xmas2024{
+    background-image: linear-gradient(#FFFFFF00, var(--c-light)), url(img/xmas2024.jpg);
 }
 
 #contact{
