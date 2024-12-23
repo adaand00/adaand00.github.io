@@ -137,12 +137,12 @@ body{
     text-decoration: none;
     color: var(--c-dark);
     text-shadow: var(--c-light) 0px 0px 10px;
+    background-size: cover;
 }
 
 .projectbox *{
     margin-top: 10px;
     margin-bottom: 10px;
-    background-size: cover;
 }
 
 #tinyled{
